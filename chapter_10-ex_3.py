@@ -14,4 +14,4 @@ months = ["january", "february", "march", "april", "may", "june", "july", "augus
 max_rain = max(mensual_rain)
 month_max = mensual_rain.index(max_rain)
 
-print(f"El mes más lluvioso ha sido {months[month_max]} con {max_rain} litros.")
+print(f"The rainiest month was {months[month_max]} with {max_rain} liters.")
